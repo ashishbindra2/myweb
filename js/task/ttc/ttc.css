@@ -1,0 +1,13 @@
+table{
+    margin: 20px auto;
+
+}
+td{
+
+    width: 8rem;
+    height: 8rem;
+    border: 4px solid gray;
+    text-align: center;
+    font-size: xx-large;
+    color: darkslategray;
+}

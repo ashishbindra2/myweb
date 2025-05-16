@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+    margin: 20px 40px;
+    padding: 0;
+}
+
+body {
+    background: #ccc;
+    line-height: 1.4rem;
+}
+
+.chessboard {
+    max-width: 960px;
+    max-height: 100vh;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns:  repeat(8,1fr);
+    gap: 2px;
+}
+
+.item {
+    background: black;
+    width: 100%;
+    padding-bottom: 90%;
+}
+
+.item:nth-child(2n+2 ){
+    background: #fff;
+}
+
