@@ -1,0 +1,162 @@
+[
+  {
+    "id": 4,
+    "title": "React Native Developer",
+    "location": "San Francisco, CA",
+    "salary": "$90K - $110K / Year",
+    "type": "Full-Time",
+    "description": "Develop mobile apps using React Native for our healthcare platform."
+  },
+  {
+    "id": 5,
+    "title": "Junior React Developer",
+    "location": "Austin, TX",
+    "salary": "$60K - $70K / Year",
+    "type": "Full-Time",
+    "description": "Looking for an enthusiastic junior React developer to grow with our team."
+  },
+  {
+    "id": 6,
+    "title": "Remote React Engineer",
+    "location": "Remote",
+    "salary": "$75K - $85K / Year",
+    "type": "Remote",
+    "description": "Work from anywhere as a React Engineer for a global SaaS company."
+  },
+  {
+    "id": 7,
+    "title": "React UI Designer",
+    "location": "Denver, CO",
+    "salary": "$70K - $90K / Year",
+    "type": "Full-Time",
+    "description": "Design intuitive UIs with React for a fintech application."
+  },
+  {
+    "id": 8,
+    "title": "React Full Stack Developer",
+    "location": "Chicago, IL",
+    "salary": "$95K - $115K / Year",
+    "type": "Full-Time",
+    "description": "Work on full-stack projects using React and Node.js."
+  },
+  {
+    "id": 9,
+    "title": "Senior Frontend Engineer",
+    "location": "Seattle, WA",
+    "salary": "$100K - $130K / Year",
+    "type": "Full-Time",
+    "description": "Lead frontend architecture decisions using React."
+  },
+  {
+    "id": 10,
+    "title": "React Developer Intern",
+    "location": "Atlanta, GA",
+    "salary": "$20/hr",
+    "type": "Internship",
+    "description": "Assist the dev team in React projects while learning best practices."
+  },
+  {
+    "id": 11,
+    "title": "React.js Consultant",
+    "location": "Remote",
+    "salary": "$100/hr",
+    "type": "Contract",
+    "description": "Advise clients on best React practices and optimize performance."
+  },
+  {
+    "id": 12,
+    "title": "React Dev (eCommerce)",
+    "location": "Los Angeles, CA",
+    "salary": "$80K - $100K / Year",
+    "type": "Full-Time",
+    "description": "Work on user-facing components for a high-traffic online store."
+  },
+  {
+    "id": 13,
+    "title": "React Software Engineer",
+    "location": "New York, NY",
+    "salary": "$85K - $95K / Year",
+    "type": "Full-Time",
+    "description": "Contribute to enterprise apps using React in a team environment."
+  },
+  {
+    "id": 14,
+    "title": "React Frontend Architect",
+    "location": "San Diego, CA",
+    "salary": "$120K - $140K / Year",
+    "type": "Full-Time",
+    "description": "Architect scalable front-end solutions using React and TypeScript."
+  },
+  {
+    "id": 15,
+    "title": "Entry-Level React Developer",
+    "location": "Raleigh, NC",
+    "salary": "$55K - $65K / Year",
+    "type": "Full-Time",
+    "description": "Looking for a passionate self-starter to build features with React."
+  },
+  {
+    "id": 16,
+    "title": "Freelance React Developer",
+    "location": "Remote",
+    "salary": "$45/hr",
+    "type": "Freelance",
+    "description": "Take on flexible React projects for various clients around the globe."
+  },
+  {
+    "id": 17,
+    "title": "React/Redux Specialist",
+    "location": "Columbus, OH",
+    "salary": "$85K - $105K / Year",
+    "type": "Full-Time",
+    "description": "Specialize in state management using Redux within large React apps."
+  },
+  {
+    "id": 18,
+    "title": "React + Tailwind Engineer",
+    "location": "Salt Lake City, UT",
+    "salary": "$75K - $90K / Year",
+    "type": "Full-Time",
+    "description": "Use React and Tailwind CSS to rapidly build responsive UIs."
+  },
+  {
+    "id": 19,
+    "title": "React Dev (Healthcare)",
+    "location": "Philadelphia, PA",
+    "salary": "$80K - $95K / Year",
+    "type": "Full-Time",
+    "description": "Join a healthcare company building tools to improve patient care."
+  },
+  {
+    "id": 20,
+    "title": "React Engineer (AI Startup)",
+    "location": "Remote",
+    "salary": "$90K - $120K / Year",
+    "type": "Remote",
+    "description": "Build interactive UIs for cutting-edge AI tools."
+  },
+  {
+    "id": 21,
+    "title": "React Mentor",
+    "location": "Remote",
+    "salary": "$50/hr",
+    "type": "Part-Time",
+    "description": "Mentor junior developers in React through online sessions."
+  },
+  {
+    "id": 22,
+    "title": "React Developer (EdTech)",
+    "location": "Orlando, FL",
+    "salary": "$70K - $85K / Year",
+    "type": "Full-Time",
+    "description": "Create engaging interfaces for online education platforms."
+  },
+  {
+    "id": 23,
+    "title": "React UI Developer",
+    "location": "Phoenix, AZ",
+    "salary": "$75K - $90K / Year",
+    "type": "Full-Time",
+    "description": "Build UI components for a B2B SaaS application."
+  }
+]

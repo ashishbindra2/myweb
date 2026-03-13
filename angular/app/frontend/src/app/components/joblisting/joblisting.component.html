@@ -1,0 +1,1186 @@
+
+
+
+
+
+
+
+
+<main id="main" class="main">
+    <section class="section dashboard">
+        <div class="row">
+            <!-- Left side columns -->
+            <div class="col-md-12">
+                <div class="btn-group relative">
+                    <button class="btn dropdown_btn dropdown1 dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                        Location
+                    </button>
+                    <div class="dropdown_location drop_down">
+                        <h3>Location</h3>
+                        
+                        <form id="locationForm" method="post" action="/admin/filters">
+
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="Antwerp" name="locations"
+                                       id="flex_Antwerp" >
+                                <label class="form-check-label" for="flex_Antwerp">
+                                    Antwerp
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="Bruges" name="locations"
+                                       id="flex_Bruges" >
+                                <label class="form-check-label" for="flex_Bruges">
+                                    Bruges
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="Brussels" name="locations"
+                                       id="flex_Brussels" >
+                                <label class="form-check-label" for="flex_Brussels">
+                                    Brussels
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="East Flanders" name="locations"
+                                       id="flex_East Flanders" >
+                                <label class="form-check-label" for="flex_East Flanders">
+                                    East Flanders
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="Ghent" name="locations"
+                                       id="flex_Ghent" >
+                                <label class="form-check-label" for="flex_Ghent">
+                                    Ghent
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="Hasselt" name="locations"
+                                       id="flex_Hasselt" >
+                                <label class="form-check-label" for="flex_Hasselt">
+                                    Hasselt
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="Kortrijk" name="locations"
+                                       id="flex_Kortrijk" >
+                                <label class="form-check-label" for="flex_Kortrijk">
+                                    Kortrijk
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="Leuven" name="locations"
+                                       id="flex_Leuven" >
+                                <label class="form-check-label" for="flex_Leuven">
+                                    Leuven
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="Lier" name="locations"
+                                       id="flex_Lier" >
+                                <label class="form-check-label" for="flex_Lier">
+                                    Lier
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="Machelen" name="locations"
+                                       id="flex_Machelen" >
+                                <label class="form-check-label" for="flex_Machelen">
+                                    Machelen
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="Mechelen" name="locations"
+                                       id="flex_Mechelen" >
+                                <label class="form-check-label" for="flex_Mechelen">
+                                    Mechelen
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="Ostend" name="locations"
+                                       id="flex_Ostend" >
+                                <label class="form-check-label" for="flex_Ostend">
+                                    Ostend
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="Roeselare" name="locations"
+                                       id="flex_Roeselare" >
+                                <label class="form-check-label" for="flex_Roeselare">
+                                    Roeselare
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="Saint-Nicolas" name="locations"
+                                       id="flex_Saint-Nicolas" >
+                                <label class="form-check-label" for="flex_Saint-Nicolas">
+                                    Saint-Nicolas
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="West Flanders" name="locations"
+                                       id="flex_West Flanders" >
+                                <label class="form-check-label" for="flex_West Flanders">
+                                    West Flanders
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="Zaventem" name="locations"
+                                       id="flex_Zaventem" >
+                                <label class="form-check-label" for="flex_Zaventem">
+                                    Zaventem
+                                </label>
+                            </div>
+                            
+                            <div class="text-center drop_down_bottom">
+                                <a href="#" id="locationCancel">Cancel</a>
+                                <button role="button" class="dropdown_btn apply_btn" type="submit">Apply</button>
+                            </div>
+                        </form>
+
+                        
+
+                    </div>
+                </div>
+
+                <div class="btn-group relative">
+                    <button class="btn dropdown_btn dropdown2 dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                        Skills
+                    </button>
+                    <div class="dropdown_skills drop_down">
+                        <h3>Skills</h3>
+
+                        
+                        <form id="skillForm" method="post" action="/admin/filters">
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" name="skills" value="Software Engineer"
+                                       id="flex_Software Engineer" >
+                                <label class="form-check-label" for="flex_Software Engineer">
+                                    Software Engineer
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" name="skills" value=".Net Developer"
+                                       id="flex_.Net Developer" >
+                                <label class="form-check-label" for="flex_.Net Developer">
+                                    .Net Developer
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" name="skills" value="Javascript Developer"
+                                       id="flex_Javascript Developer" >
+                                <label class="form-check-label" for="flex_Javascript Developer">
+                                    Javascript Developer
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" name="skills" value="Full Stack Engineer"
+                                       id="flex_Full Stack Engineer" >
+                                <label class="form-check-label" for="flex_Full Stack Engineer">
+                                    Full Stack Engineer
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" name="skills" value="Java Software Engineer"
+                                       id="flex_Java Software Engineer" >
+                                <label class="form-check-label" for="flex_Java Software Engineer">
+                                    Java Software Engineer
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" name="skills" value="Cloud Engineer"
+                                       id="flex_Cloud Engineer" >
+                                <label class="form-check-label" for="flex_Cloud Engineer">
+                                    Cloud Engineer
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" name="skills" value="Electrical Engineer"
+                                       id="flex_Electrical Engineer" >
+                                <label class="form-check-label" for="flex_Electrical Engineer">
+                                    Electrical Engineer
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" name="skills" value="Senior Software Engineer"
+                                       id="flex_Senior Software Engineer" >
+                                <label class="form-check-label" for="flex_Senior Software Engineer">
+                                    Senior Software Engineer
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" name="skills" value="Application Developer"
+                                       id="flex_Application Developer" >
+                                <label class="form-check-label" for="flex_Application Developer">
+                                    Application Developer
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" name="skills" value="Python Developer"
+                                       id="flex_Python Developer" >
+                                <label class="form-check-label" for="flex_Python Developer">
+                                    Python Developer
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" name="skills" value="Data Engineer"
+                                       id="flex_Data Engineer" >
+                                <label class="form-check-label" for="flex_Data Engineer">
+                                    Data Engineer
+                                </label>
+                            </div>
+                            
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" name="skills" value="Automation Engineer"
+                                       id="flex_Automation Engineer" >
+                                <label class="form-check-label" for="flex_Automation Engineer">
+                                    Automation Engineer
+                                </label>
+                            </div>
+                            
+                            <div class="text-center drop_down_bottom">
+                                <a href="">Cancel</a>
+                                <button type="submit" class="apply_btn">Apply</button>
+                            </div>
+
+                        </form>
+                        
+                    </div>
+
+                </div>
+
+                <div class="btn-group">
+                    <button class="btn dropdown_btn dropdown3 dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                        Jobs type
+                    </button>
+
+
+                    <div class="dropdown_job_type drop_down">
+                        <h3>Jobs type</h3>
+                        <form method="post" action="/admin/job_type_filter">
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="IT" name="job_type" id="it_jobs"
+                                
+                                >
+                                <label class="form-check-label" for="it_jobs">
+                                    IT Jobs
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" value="Finance Jobs" name="job_type"
+                                       id="finance_jobs" 
+                                >
+                                <label class="form-check-label" for="finance_jobs">
+                                    Finance Jobs
+                                </label>
+                            </div>
+
+                            <div class="text-center drop_down_bottom">
+                                <a href="" class="cancel-button">Cancel</a>
+                                <button type="submit" class="apply_btn">Apply</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="btn-group">
+                    <button class="btn dropdown_btn dropdown4 dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                        Tags
+                    </button>
+                    <div class="dropdown_menu4 drop_down">
+                        <h3>Tags</h3>
+                        <form action="/admin/filters" method="post">
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" name="tags" value="Follow up"
+                                       id="followup"
+                                        id="followup">
+                                <label class="form-check-label" for="followup">
+                                    Follow Up
+                                </label>
+                            </div>
+
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" name="tags"
+                                       value="not interested" id="notinterested" >
+                                <label class="form-check-label" for="notinterested">
+                                    Not Interested
+                                </label>
+                            </div>
+                            <div class="text-center drop_down_bottom">
+                                <a href="">Cancel</a>
+                                <button type="submit" class="apply_btn">Apply</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="row ">
+                    <!-- Reports -->
+                    <div class="col-12" style="max-height: 80vh; overflow-y: auto;">
+
+                        <!--                        <div class="cl-toggle-switch">-->
+                        <!--                            <label class="cl-switch">-->
+                        <!--                                <input type="checkbox">-->
+                        <!--                                <span></span>-->
+                        <!--                                <strong class="u_mail">Unread jobs</strong>-->
+                        <!--                            </label>-->
+                        <!--                        </div>-->
+
+                        
+                        
+                        <div class="card job_listing" data-jobid="65c125790237dac086d2b3ef">
+                            <h4>R&D Manager </h4>
+                            <h5>vdab</h5>
+                            <h6>
+                                NOEL FRANKLIN
+                                
+                            </h6>
+                            <div class="job_location"><i class="bx bxs-map"></i>
+                                
+                                HARELBEKE
+                                
+                            </div>
+                            <p>
+                                
+                                
+                                Vaste Job
+                                
+                            </p>
+                            <div class="posted_date">
+                                Posted Date:
+                                
+                                vandaag
+                                
+                            </div>
+                            <ul class="bottom_btn">
+                                
+
+                                
+
+                            </ul>
+                        </div>
+                        
+                        <div class="card job_listing" data-jobid="65c125690237dac086d2b30f">
+                            <h4>Isabel Group - Senior Linux Engineer </h4>
+                            <h5>vdab</h5>
+                            <h6>
+                                Isabel Group
+                                
+                            </h6>
+                            <div class="job_location"><i class="bx bxs-map"></i>
+                                
+                                BRUSSEL
+                                
+                            </div>
+                            <p>
+                                
+                                
+                                Vaste Job
+                                
+                            </p>
+                            <div class="posted_date">
+                                Posted Date:
+                                
+                                vandaag
+                                
+                            </div>
+                            <ul class="bottom_btn">
+                                
+
+                                
+
+                            </ul>
+                        </div>
+                        
+                        <div class="card job_listing" data-jobid="65c1259a0237dac086d2b5ba">
+                            <h4>IT Support Engineer </h4>
+                            <h5>vdab</h5>
+                            <h6>
+                                Cleanleaese
+                                
+                            </h6>
+                            <div class="job_location"><i class="bx bxs-map"></i>
+                                
+                                OEDELEM
+                                
+                            </div>
+                            <p>
+                                
+                                
+                                Vaste Job
+                                
+                            </p>
+                            <div class="posted_date">
+                                Posted Date:
+                                
+                                vandaag
+                                
+                            </div>
+                            <ul class="bottom_btn">
+                                
+
+                                
+
+                            </ul>
+                        </div>
+                        
+                        <div class="card job_listing" data-jobid="65c1258a0237dac086d2b4db">
+                            <h4>Junior System Engineer | Schoolverlaters welkom </h4>
+                            <h5>vdab</h5>
+                            <h6>
+                                Kwery
+                                
+                            </h6>
+                            <div class="job_location"><i class="bx bxs-map"></i>
+                                
+                                ZWIJNAARDE
+                                
+                            </div>
+                            <p>
+                                
+                                min. 2750 - max. 3500 euro bruto per maand
+                                
+                                
+                                Vaste Job
+                                
+                            </p>
+                            <div class="posted_date">
+                                Posted Date:
+                                
+                                vandaag
+                                
+                            </div>
+                            <ul class="bottom_btn">
+                                
+
+                                
+
+                            </ul>
+                        </div>
+                        
+                        <div class="card job_listing" data-jobid="65c125130237dac086d2ae55">
+                            <h4>Operationeel Manager </h4>
+                            <h5>vdab</h5>
+                            <h6>
+                                EdConsult
+                                
+                            </h6>
+                            <div class="job_location"><i class="bx bxs-map"></i>
+                                
+                                DEINZE
+                                
+                            </div>
+                            <p>
+                                
+                                
+                                Vaste Job
+                                
+                            </p>
+                            <div class="posted_date">
+                                Posted Date:
+                                
+                                vandaag
+                                
+                            </div>
+                            <ul class="bottom_btn">
+                                
+
+                                
+
+                            </ul>
+                        </div>
+                        
+                        <div class="card job_listing" data-jobid="65c1258c0237dac086d2b4f5">
+                            <h4>IT Project CoÃ¶rdinator/Business Analyst </h4>
+                            <h5>vdab</h5>
+                            <h6>
+                                EdConsult
+                                
+                            </h6>
+                            <div class="job_location"><i class="bx bxs-map"></i>
+                                
+                                DEINZE
+                                
+                            </div>
+                            <p>
+                                
+                                
+                                Vaste Job
+                                
+                            </p>
+                            <div class="posted_date">
+                                Posted Date:
+                                
+                                vandaag
+                                
+                            </div>
+                            <ul class="bottom_btn">
+                                
+
+                                
+
+                            </ul>
+                        </div>
+                        
+                        <div class="card job_listing" data-jobid="65c125a80237dac086d2b66d">
+                            <h4>IT Support medewerker </h4>
+                            <h5>vdab</h5>
+                            <h6>
+                                EdConsult
+                                
+                            </h6>
+                            <div class="job_location"><i class="bx bxs-map"></i>
+                                
+                                DEINZE
+                                
+                            </div>
+                            <p>
+                                
+                                
+                                Vaste Job
+                                
+                            </p>
+                            <div class="posted_date">
+                                Posted Date:
+                                
+                                vandaag
+                                
+                            </div>
+                            <ul class="bottom_btn">
+                                
+
+                                
+
+                            </ul>
+                        </div>
+                        
+                        <div class="card job_listing" data-jobid="65c125a60237dac086d2b654">
+                            <h4>Functioneel Analist </h4>
+                            <h5>vdab</h5>
+                            <h6>
+                                LGA IT
+                                
+                            </h6>
+                            <div class="job_location"><i class="bx bxs-map"></i>
+                                
+                                SINT-DENIJS-WESTREM
+                                
+                            </div>
+                            <p>
+                                
+                                min. 45000 - max. 50000 euro bruto per maand
+                                
+                                
+                                Vaste Job
+                                
+                            </p>
+                            <div class="posted_date">
+                                Posted Date:
+                                
+                                vandaag
+                                
+                            </div>
+                            <ul class="bottom_btn">
+                                
+
+                                
+
+                            </ul>
+                        </div>
+                        
+                        <div class="card job_listing" data-jobid="65c1252c0237dac086d2afbc">
+                            <h4>ERP specialist voor een internationale firma! </h4>
+                            <h5>vdab</h5>
+                            <h6>
+                                Vivaldis Interim
+                                
+                            </h6>
+                            <div class="job_location"><i class="bx bxs-map"></i>
+                                
+                                HASSELT
+                                
+                            </div>
+                            <p>
+                                
+                                
+                                Interim met optie "vast werk"
+                                
+                            </p>
+                            <div class="posted_date">
+                                Posted Date:
+                                
+                                vandaag
+                                
+                            </div>
+                            <ul class="bottom_btn">
+                                
+
+                                
+
+                            </ul>
+                        </div>
+                        
+                        <div class="card job_listing" data-jobid="65c125060237dac086d2ada6">
+                            <h4>Projectmanager implementatie software </h4>
+                            <h5>vdab</h5>
+                            <h6>
+                                ETS-INFORMATICS BVBA
+                                
+                            </h6>
+                            <div class="job_location"><i class="bx bxs-map"></i>
+                                
+                                KORTRIJK
+                                
+                            </div>
+                            <p>
+                                
+                                
+                                Vaste Job
+                                
+                            </p>
+                            <div class="posted_date">
+                                Posted Date:
+                                
+                                vandaag
+                                
+                            </div>
+                            <ul class="bottom_btn">
+                                
+
+                                
+
+                            </ul>
+                        </div>
+                        
+                        
+                    </div><!-- End Reports -->
+                </div>
+            </div><!-- End Left side columns -->
+
+            <!-- Right side columns -->
+            <div class="col-lg-8 mt-4" style="max-height: 80vh; overflow-y: auto;">
+                <div class="card top-selling overflow-auto">
+                    <h5 class="card-title bb title_peding" id="jobHeading">Please click cards to see job
+                        descriptions </h5>
+                    
+                    
+                    
+
+                    <form method="post" action="/admin/update_company_details"
+                          id="companyForm">
+                        <div class="table_btn_top">
+                            <input type="hidden" id="companyId" name="companyId">
+                            <button class="btn dropdown_btn" id="saveButton" type="submit" style="display:None;">
+                                Save
+                            </button>
+                            <button class="btn dropdown_btn" type="button" style="display:none;" id="editCompany"
+                            >
+                                edit
+                            </button>
+                            <button class="btn dropdown_btn" type="button" data-bs-toggle="modal" id="jobRemarks"
+                                    data-bs-target="#remarks_popup" data-jobid="" style="display:None;">
+                                Remarks
+                            </button>
+
+                            <button class="btn dropdown_btn dropdown5  dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false" id="jobAction" style="display:none;">
+                                Action
+                            </button>
+                            <div class="dropdown_menu5 drop_down">
+                                <div class="form-check mb-3">
+                                    <input type="hidden" id="jid" name="jid" value="">
+                                    <input class="form-check-input" type="checkbox" value="Follow Up" id="follow_up">
+                                    <label class="form-check-label" for="follow_up">
+                                        Follow Up
+                                    </label>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input" type="checkbox" value="Not Interested"
+                                           id="not_interested">
+                                    <label class="form-check-label" for="not_interested">
+                                        Not Interested
+                                    </label>
+                                </div>
+
+                                <button type="button" class="apply_btn" onclick="addUser()">Submit</button>
+
+                            </div>
+
+                        </div>
+
+                        <div class="card-body pb-0 mt-2">
+                            <table class="table job_listing_table input_back_none" id="tabelHeader">
+                                <tbody id="outputHeader">
+                                </tbody>
+                            </table>
+                            <div class="job_listing_detail" id="outputContent">
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- End Right side columns -->
+
+        </div>
+    </section>
+    <!-- pagination -->
+    <div id="filteredLocations"></div>
+    <!-- This div will display the filtered locations -->
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            
+
+            
+            
+            
+            
+
+            
+            
+            <li class="page-item">
+                <a class="page-link" href="
+                     
+                        /admin/job_listing
+                        
+
+                        
+
+                        
+                     
+"> 1</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li class="page-item">
+                <a class="page-link" href="
+                     
+                            /admin/job_listing?page=2
+                        
+
+                        
+
+                        
+
+                            
+" aria-label="Next">
+                    <span aria-hidden="true">2 </span>
+                </a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="
+
+                        
+                            /admin/job_listing?page=2
+                        
+
+                        
+
+                        
+
+                        
+
+
+                        " aria-label="Next">
+                    <span aria-hidden="true">»</span>
+                </a>
+            </li>
+            
+
+        </ul>
+    </nav>
+</main>
+<!-- End #main -->
+Vertically centered
+<div class="modal fade" id="remarks_popup" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Remarks</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <div class="mb-4">
+                    <form action="/admin/add_remarks" method="post">
+
+                        <label for="Enter_your_Remarks" class="form-label">Enter your Remarks</label>
+                        <textarea class="form-control" id="Enter_your_Remarks" style="height: 200px" name="remark"
+                                  required></textarea>
+                        <input type="hidden" name="job_id" id="job_id">
+                        <button type="submit" class="btn dropdown_btn mt-3" title="Submit">Submit</button>
+                    </form>
+                </div>
+                <div class="comment_box" id="rid">
+
+                </div>
+
+                <!--                <div class="text-center mt-3">-->
+                <!--                    <a href="">Load more remarks <i class="bx bxs-right-arrow-alt"></i></a>-->
+                <!--                </div>-->
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        var jobId; // Declare jobId outside the click event handler
+         $('#editCompany').click(function() {
+                $('#editCompany').hide();
+
+                // Show the edit form and the save button
+                $('#saveButton').show();
+
+                var element = document.getElementById("tabelHeader");
+
+                // Remove the CSS class from the element
+                element.classList.remove("input_back_none");
+
+                var inputElements = document.getElementsByTagName("input");
+
+                // Convert the HTMLCollection to an array to iterate over it
+                var inputArray = Array.from(inputElements);
+
+                // Remove each input element
+                inputArray.forEach(function(inputElement) {
+                    inputElement.classList.remove("input_disable");
+                });
+          });
+
+
+        $('.job_listing').on('click', function () {
+            jobId = $(this).data('jobid');
+            $('#job_id').val(jobId)
+            $('#jid').val(jobId)
+
+            var element = document.getElementById("tabelHeader");
+            element.classList.add("input_back_none");
+
+            $('#jobRemarks').val(jobId)
+            $('#jobAction').val(jobId);
+
+            $('#editCompany').show();
+            $('#saveButton').hide();
+
+            $('#jobRemarks').show();
+            $('#jobAction').show();
+
+            // Use AJAX to fetch job description from the server
+            $.ajax({
+                url: '/admin/get_job_details/' + jobId,
+                type: 'GET',
+                success: function (data) {
+                        // Create a list of items to display in the card
+                        var itemList = [];
+
+                        // Check if each detail is available and add it to the list
+                        itemList.push('<tr> <td colspan = "2"> <i class="bx bxs-map"></i>' + (data.location ? data.location:'')+ '</td></tr>');
+                        itemList.push('<tr><td>Company Name</td><td class="tr"><input type="text" id="companyName" class="input_disable" name="companyName" value ="'+ (data.companyName ? data.companyName:'')+'"></td> </tr>' );
+                        itemList.push('<tr><td>Company Email</td><td class="tr"><input type="email" id="companyEmail" class="input_disable require" name="companyEmail" placeholder="Please enter company name" value="' + (data.companyEmail ? data.companyEmail:'')+'"></td></tr>');
+                        itemList.push('<tr><td>Company Contact No</td><td class="tr"><input type="text" class="input_disable"  pattern="[0-9]{10}" title="Please enter a 10-digit phone number" id="companyContact" name="companyContact" value="' + (data.companyContact ? data.companyContact:'')+'"></td></tr>');
+
+                        if (data.salary){
+                            itemList.push('<tr><td>Salary Range</td> <td class="tr">' + (data.salary ? data.salary : '') +'"></td></tr>');
+                        }
+
+                        itemList.push('<tr><td>Website URL</td><td class="tr Website"> <input class="input_disable" type="url" name="websiteUrl" id="websiteUrl" value="'+  (data.websiteUrl ?  data.websiteUrl : '') +'"></td></tr>');
+                        itemList.push('<tr><td>Company Type</td> <td class="tr"><input class="input_disable" type="text" name="companyType" id="companyType" value="' + (data.companyType ? data.companyType : '')+'"></td></tr>');
+                        itemList.push('<tr> <td>Number of Employees</td> <td class="tr"><input class="input_disable" type="text" name="numEmployees" id="numEmployees" value = "' + (data.numEmployees ? data.numEmployees : '')+'"></td></tr>');
+
+                        if (data.dateOfPost){
+                        itemList.push('<tr> <td>Date of Post</td> <td class="tr"> ' + (data.dateOfPost ? data.dateOfPost : '') +'</td></tr>');
+                    }
+
+                    // Construct the HTML for the card
+                    var cardHtml = ''
+
+                    // Iterate through the items and add them to the list
+                    itemList.forEach(function (item) {
+                        cardHtml += '<tr>' + item + '</tr>';
+                    });
+
+                    // Close the HTML for the card
+                    cardHtml += '';
+
+                    // Update the output content on success
+                    $('#outputHeader').html(cardHtml);
+
+                    $('#companyId').val(data.companyId)
+
+                    // Update job title
+                    $('#jobHeading').html(data.JobTitle)
+
+                    // Update the output content on success
+                    $('#outputContent').html(data.jobDescription);
+
+                },
+                error: function () {
+                    alert('Failed to fetch job description.');
+                }
+            });
+
+        });
+
+        $('#jobAction').on('click',function(){
+            jobId = this.value
+
+            console.log(jobId+" job");
+                  // Uncheck all checkboxes first
+                  $('#follow_up').prop('checked', false);
+                  $('#not_interested').prop('checked', false);
+             // Use AJAX to fetch job description from the server
+            $.ajax({
+                url: '/admin/get_action/' + jobId,
+                type: 'GET',
+                success: function (data) {
+                        if (data && data.length > 0 && data[0].admin_action) {
+                            var adminAction = data[0].admin_action;
+
+                            if (adminAction.follow_up) {
+                              document.getElementById('follow_up').checked = true;
+                            }
+
+                            if (adminAction.not_interested) {
+                              document.getElementById('not_interested').checked = true;
+                            }
+                          }
+
+                     },
+                error: function () {
+                    alert('Failed to fetch Action button details.');
+                }
+            });
+        });
+
+
+        $('#jobRemarks').on('click',function(){
+            jobId = this.value
+            console.log(jobId+" job");
+
+             // Use AJAX to fetch job description from the server
+            $.ajax({
+                url: '/admin/get_remarks/' + jobId,
+                type: 'GET',
+                success: function (data) {
+                        // Construct the HTML for the remarks
+                            var cardHtml = '';
+
+                // Iterate through each remark object in the data array
+                        data.forEach(function(remark) {
+                            cardHtml += '<div class="comment_top_section">' +
+                                '<span class="pic"><span><i class="bx bx-user"></i></span></span>' +
+                                '<span class="name">' + remark.review_by + '</span>' +
+                                '<span class="time">' + remark.date_of_remark + '</span>' +
+                                '</div>' +
+                                '<p>' + remark.remark + '</p>';
+                        });
+
+                        // Display the remark HTML in the specified element
+                        $('#rid').html(cardHtml);  
+                     },
+                error: function () {
+                    alert('Failed to fetch remarks details.');
+                }
+            });
+        });
+    });
+</script>
+<script>
+
+$(document).ready(function(){
+
+ // Function to hide all dropdowns
+ function hideAllDropdowns() {
+    $(".dropdown_location, .dropdown_skills, .dropdown_job_type, .dropdown_menu4, .dropdown_menu5").slideUp();
+ }
+
+ // Click event for dropdown1
+ $(".dropdown1").click(function(){
+    //hideAllDropdowns(); // Hide all dropdowns
+    $(".dropdown_location").slideToggle("");
+    $('.drop_down').not('.dropdown_location').slideUp();
+ });
+
+ // Click event for locationCancel
+ $("#locationCancel").click(function(){
+    //hideAllDropdowns(); // Hide all dropdowns
+    $(".dropdown_location").slideToggle("");
+    $('.drop_down').not('.dropdown_location').slideUp();
+ });
+
+ // Click event for dropdown2
+ $(".dropdown2").click(function(){
+    //hideAllDropdowns(); // Hide all dropdowns
+    $(".dropdown_skills").slideToggle("");
+    $('.drop_down').not('.dropdown_skills').slideUp();
+ });
+
+ // Click event for dropdown3
+ $(".dropdown3").click(function(){
+   // hideAllDropdowns(); // Hide all dropdowns
+    $(".dropdown_job_type").slideToggle("");
+
+    $('.drop_down').not('.dropdown_job_type').slideUp();
+ });
+
+ // Click event for dropdown4
+ $(".dropdown4").click(function(){
+   // hideAllDropdowns(); // Hide all dropdowns
+    $(".dropdown_menu4").slideToggle("");
+    $('.drop_down').not('.dropdown_menu4').slideUp();
+ });
+
+ // Click event for dropdown5
+ $(".dropdown5").click(function(){
+    //hideAllDropdowns(); // Hide all dropdowns
+    $(".dropdown_menu5").slideToggle("");
+    $('.drop_down').not('.dropdown_menu5').slideUp();
+ });
+});
+</script>
+
+<script>
+    function applyFilterLocation() {
+        event.preventDefault(); // Prevent default form submission
+        var selectedLocations = [];
+        var checkboxes = document.querySelectorAll('input[name="locations"]:checked');
+        checkboxes.forEach(function(checkbox) {
+            selectedLocations.push(checkbox.value);
+        });
+
+        // Send selected locations to backend
+        fetch('/admin/filter_locations', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ locations: selectedLocations })
+        })
+        .then(response => response.json()) // Parse response as JSON
+        .then(data => {
+            // Display filtered locations
+            var filteredLocationsDiv = document.getElementById('filteredLocations');
+            filteredLocationsDiv.innerHTML = "<h3>Filtered Locations</h3>";
+            if (data.length > 0) {
+                data.forEach(function(location) {
+                    filteredLocationsDiv.innerHTML += "<p>" + location + "</p>";
+                });
+            } else {
+                filteredLocationsDiv.innerHTML += "<p>No locations found</p>";
+            }
+        })
+        .catch(error => console.error('Error:', error));
+    }
+</script>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.card.job_listing').click(function(){
+            $('.job_listing').removeClass("active_job");
+            $(this).addClass("active_job");
+        });
+    });
+</script>
+
+<script>
+    function addUser() {
+
+      //  var interested = document.getElementById('interestedCheckbox').checked;
+        var followUp = document.getElementById('follow_up').checked;
+        var notInterested = document.getElementById('not_interested').checked;
+        var jid = document.getElementById('jid').value;
+
+        var userData = {
+        //    interested: interested,
+            jid: jid,
+            follow_up: followUp,
+            not_interested: notInterested
+        };
+
+        // Send AJAX request
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', '/admin/add_action', true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                console.log(xhr.responseText);
+                 $(".dropdown_menu5").slideToggle("");
+            }
+        };
+        xhr.send(JSON.stringify(userData));
+    }
+</script>
+
+
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<!-- Vendor JS Files -->
+<script src="/static/vendor/apexcharts/apexcharts.min.js"></script>
+<script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/static/vendor/chart.js/chart.umd.js"></script>
+<script src="/static/vendor/echarts/echarts.min.js"></script>
+<script src="/static/vendor/quill/quill.min.js"></script>
+<script src="/static/vendor/simple-datatables/simple-datatables.js"></script>
+<script src="/static/vendor/tinymce/tinymce.min.js"></script>
+<script src="/static/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="/static/js/main.js"></script>
+

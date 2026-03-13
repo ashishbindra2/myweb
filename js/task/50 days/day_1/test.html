@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            width: 90vw;
+        }
+
+        .panel {
+            background-size: auto 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 90vh;
+            flex: 0.5;
+            cursor: pointer;
+            position: relative;
+            margin: 10px;
+            transition: flex 0.8s ease-in;
+            border-radius: 10px;
+        }
+
+        .panel h3 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            margin: 0;
+            opacity: 0;
+            font-size: 20px;
+        }
+
+        .panel.active {
+            flex: 5;
+        }
+
+        .panel.active h3 {
+            opacity: 1;
+            transition: opacity 0.3s ease-in 0.4s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="panel active"
+            style="background-image: url('https://random-image-pepebigotes.vercel.app/api/random-image');">
+            <h3> Image - 1</h3>
+        </div>
+        <div class="panel"
+            style="background-image: url('https://random-image-pepebigotes.vercel.app/api/swag-wallpaper');">
+            <h3> Image - 9</h3>
+        </div>
+        <div class="panel"
+            style="background-image: url('https://random-image-pepebigotes.vercel.app/api/random-image');">
+            <h3> Image - 2</h3>
+        </div>
+        <div class="panel"
+            style="background-image: url('https://random-image-pepebigotes.vercel.app/api/random-image');">
+            <h3> Image - 3</h3>
+        </div>
+        <div class="panel"
+            style="background-image: url('https://random-image-pepebigotes.vercel.app/api/random-image');">
+            <h3> Image - 4</h3>
+        </div>
+        <div class="panel"
+            style="background-image: url('https://random-image-pepebigotes.vercel.app/api/random-image');">
+            <h3> Image - 5</h3>
+        </div>
+        <div class="panel"
+            style="background-image: url('https://random-image-pepebigotes.vercel.app/api/random-image');">
+            <h3> Image - 6</h3>
+        </div>
+        <div class="panel"
+            style="background-image: url('https://random-image-pepebigotes.vercel.app/api/random-image');">
+            <h3> Image - 7</h3>
+        </div>
+        <div class="panel"
+            style="background-image: url('https://random-image-pepebigotes.vercel.app/api/random-image');">
+            <h3> Image - 8</h3>
+        </div>
+    </div>
+    <script>
+        const panels = document.querySelectorAll('.panel');
+        // console.log(panels)
+
+        panels.forEach((panel)=>{
+            // console.log(panel)
+            panel.addEventListener('click',()=>{
+                removeClassACtive();
+                panel.classList.add('active');
+            })
+        });
+
+        function removeClassACtive(){
+            panels.forEach((panel)=>{
+                panel.classList.remove('active')
+            })
+        }
+    </script>
+</body>
+
+</html>

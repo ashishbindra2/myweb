@@ -1,0 +1,14 @@
+https://www.creative-tim.com/templates/flask?filter=true
+https://zerotomastery.io/resources/
+https://html5up.net/
+https://animate.style/
+https://startbootstrap.com/templates
+https://themewagon.com/author/mashuptemplate/
+https://themewagon.com/theme-framework/bootstrap-5/
+https://mdbootstrap.com/freebies/
+https://templatemo.com/page/1
+https://www.free-css.com/free-css-templates
+https://bashooka.com/lander
+https://www.freecodecamp.org/learn/responsive-web-design/basic-css/
+https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.21&spec=false&loose=false&code_lz=PTAEGIEYEpQYQE4FMCGAXJoWgA4IPYC2AlgM6ZoAW6oyp-ANgG5KmjEB2oALKOQMb4OAEzYoRtJGgCuCDmwBEpaf36tSCvmgScA5gCh9ICACZYAJWlcqmFACN8LXARLksEwigDWmYmlCC8oxIAHQM-LqgSipqpBqGRmDgAMwWqMJYDtL-AAouZKF0jCwAFLDiGXlEBSHIAFZI_GhlIaAAEvgA7gHioACe-NKgnj6JoDaZjph41W6klPgIGAignX6UoFWuhazFSGXuGYH0DJjhurqcUcqq6goJxuDcsHDo_BtUZKBICAQrFQEhCczhFQAByADy-HwODY9EIUkoelWSA4_k6BA4ujB-i2NXqjWaYIAZihiKdhGDoIZHgBWWAAVTcePIIRQDAY43woGJUneWA5oHwxPGlFY0yQMNOPJcoAAymgUCsAOpKtglOXKgCCOQAkuV_BNSCgEeNiAiQmM4EDgmFQRNBmgcNlDsNvJhlMh2P5qGIemh-XZwvwvFg2J0kBzLcd_LIGGwALygADa-lA4MoaCdAC4QKROigcMQQsIkExgIXiMAcJKcKdgJAwQAaNMZrM4XPAfOVktlitF6u1-smZutsGZnN5gtF3vlyuDqVIYDJUfp8ftzvdmelucDmuL4DcHEAXRpSQAbC9qFjMEJbyKBrJQHGxA4nGhuSNfP5OIJfoTXVJclRWmfJyDGYR8FYfpBhWfg3g2IN8BDUBr2EaU_AAfn0IA&debug=false&forceAllTransforms=false&modules=false&shippedProposals=false&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.26.4&externalPlugins=&assumptions=%7B%7D
+https://jsonplaceholder.typicode.com/users
